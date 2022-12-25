@@ -17,7 +17,7 @@ window.addEventListener('DOMContentLoaded', event => {
     })
 
     // Closes responsive menu when a scroll trigger link is clicked
-    var scrollTriggerList = [].slice.call(document.querySelectorAll('#sidebar-wrapper .js-scroll-trigger'));
+    var scrollTriggerList = [].slice.call(document.querySelectorAll('//sidebar-wrapper .js-scroll-trigger'));
     scrollTriggerList.map(scrollTrigger => {
         scrollTrigger.addEventListener('click', () => {
             sidebarWrapper.classList.remove('active');
